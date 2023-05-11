@@ -1,0 +1,25 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.toggleButton {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 16px;
+    text-align: left;
+    width: 100%;
+}
+
+.content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    z-index: 1;
+    border: 1px solid gray;
+    padding: 8px;
+    width: 100%;
+}

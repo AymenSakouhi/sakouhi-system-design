@@ -1,0 +1,28 @@
+.fileInputWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.label {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.fileInput {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.fileInput:focus {
+    border-color: blue;
+}
+
+.fileInput:disabled {
+    background-color: #f2f2f2;
+    color: gray;
+    cursor: not-allowed;
+}

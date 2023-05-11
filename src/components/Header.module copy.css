@@ -1,0 +1,22 @@
+.header {
+  background: linear-gradient(to right, skyblue, green);
+  color: white;
+  padding: 16px;
+  text-align: left;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.logo {
+  height: 30px;
+  margin-bottom: 8px;
+}
+
+.text {
+  font-size: 0.8rem;
+  font-weight: bold;
+}

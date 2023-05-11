@@ -1,0 +1,49 @@
+.radioWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.label {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.radioOption {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+input[type="radio"]:checked {
+    background-color: blue;
+    border-color: blue;
+}
+
+input[type="radio"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 255, 0.3);
+}
+
+input[type="radio"]:disabled {
+    cursor: not-allowed;
+    background-color: #f2f2f2;
+    border-color: gray;
+}
+
+label[for] {
+    font-size: 16px;
+}
